@@ -1,0 +1,60 @@
+/* ==== REGISTER ==== */
+
+.register {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  //   margin-top: 120px;
+  //   margin-bottom: 70px;
+}
+
+.reg__title {
+  color: $white;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.form__error-message {
+  max-width: 350px;
+
+  display: block;
+  background-color: $mainaccent;
+  font-size: 20px;
+  padding: 0.2rem 0.2rem;
+  border-radius: 5px;
+
+  text-align: center;
+}
+
+.reg__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.reg__input {
+  background-color: $white;
+  width: 50%;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.reg__btn {
+  max-width: 150px;
+}
+
+.reg__after-txt {
+  display: block;
+  margin-top: 15px;
+  color: $white;
+  display: block;
+  font-size: 15px;
+}
+
+.reg__after-link {
+  color: $mainaccent;
+
+  &:hover {
+    color: $white;
+  }
+}
